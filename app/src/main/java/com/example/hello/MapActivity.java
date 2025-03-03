@@ -216,7 +216,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             }
         }
 
-        String apiKey = "d4b49b4d-fd23-4457-8da2-8338219bd148";
+        String apiKey = "*******API-KEY*****";
         String url = "https://t-data.seoul.go.kr/apig/apiman-gateway/tapi/v2xSignalPhaseTimingInformation/1.0?apikey=" + apiKey;
 
         Request request = new Request.Builder().url(url).build();
